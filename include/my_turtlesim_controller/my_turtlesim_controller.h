@@ -13,6 +13,7 @@ class MyTurtlesimController
     private:
         void pose_callback(const turtlesim::Pose::ConstPtr &);
         void go_straight();
+        void turn();
 
         int hz;
 
